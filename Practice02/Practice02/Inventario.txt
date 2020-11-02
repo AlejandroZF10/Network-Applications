@@ -1,0 +1,12 @@
+1000,Crash Bandicoot,Xbox One,1099.00,10,10
+1001,FIFA 20,Xbox One,1499.00,10,35
+1002,PES 20,Xbox One,749.00,5,0
+1003,Halo MasterChief Collection,Xbox One,799.00,10,35
+1004,Call of Duty WWII,Xbox One,199.00,5,0
+1005,Grand Theft Auto V,Xbox One,799.00,10,10
+1006,Battlefield I,PlayStation 4,399.00,10,0
+1007,Uncharted 4,PlayStation 4,399.00,10,0
+1008,Spiderman,PlayStation 4,1199.00,30,0
+1009,The last of us,PlayStation 4,799.00,10,0
+1010,Resident Evil 4,PlayStation 4,549.00,10,10
+1011,God of War,PlayStation 4,399.00,30,10
