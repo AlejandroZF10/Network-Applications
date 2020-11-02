@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html;" />
+  		  <title>Servidor Web</title>
+        <link rel="stylesheet" href = "https://unpkg.com/material-components-web/dist/material-components-web.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js">
+    </head>
+    <style>
+        body{
+            align-items: center;
+            text-align: center;
+            background: url("image/Fondo.jpg") no-repeat;
+            background-attachment:scroll;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            width:100%;
+        }
+        .Fuente{
+            font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial, sans-serif;
+        }
+        .divisor{
+            position: relative;
+            margin: 10% auto;
+            border-style: solid;
+            border-radius: 10px;
+            padding: 0px 40px 20px 40px;
+            background-color:  #eaeded ;
+            display: inline-block;
+        }
+    </style>
+    <body class="mdc-typography">
+        <div class="divisor">
+            <h1 class="Fuente">GET</h1>
+            <form action = "get" method = "GET" name="formGET">
+                <p class="Fuente">Nombre: <input type="text" name="Nombre"/></p>
+                <p class="Fuente">Telefono: <input type="text" name="Telefono"/></p>
+                <p class="Fuente">Address: <input type="text" name="Direccion"/></p>
+                <p class="Fuente">Commit: <input type="text" name="Comentarios"/></p></p><br>
+                <button class="mdc-button mdc-button--raised"> Confirmar </button>
+                <button class="mdc-button mdc-button--raised" type="reset"> Limpiar </button>
+            </form>
+    	</div>
+      <div class="divisor">
+          <h1 class="Fuente">POST</h1>
+          <form action = "post" method = "POST" name="formPost">
+              <p class="Fuente">Nombre: <input type="text" name="Nombre"/></p>
+              <p class="Fuente">Telefono: <input type="text" name="Telefono"/></p>
+              <p class="Fuente">Address: <input type="text" name="Direccion"/></p>
+              <p class="Fuente">Commit: <input type="text" name="Comentarios"/></p></p><br>
+              <button class="mdc-button mdc-button--raised" type="submit"> Confirmar </button>
+              <button class="mdc-button mdc-button--raised" type="reset"> Limpiar </button>
+          </form>
+      </div>
+    </body>
+</html>
